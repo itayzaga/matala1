@@ -38,22 +38,10 @@ def sqrt (x , y):
 		return 0.0
 
 def calculate (x):
-	print (exponent (x) * XtimesY (7.0 , x) * XtimesY (x , -1) * sqrt (x , x))
-
-
+	return exponent (x) * XtimesY (7.0 , x) * XtimesY (x , -1) * sqrt (x , x)
 #x = input("give x ")
 #x = float(x)
 #calculate (x)
-
-
-
-
-
-
-
-
-
-
 #if (x < 0.0):
 #		if (y - int(y) != 0.0):
 #			print (y)
@@ -74,5 +62,4 @@ def calculate (x):
 
 #y = float(input("give y "))
 #pow = sqrt (x , y)
-#pow = XtimesY(x , y)
-#print (pow)
+#pow = XtimesY(x , y)#print (pow)
