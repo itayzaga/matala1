@@ -41,7 +41,7 @@ def calculate (x):
 	print (exponent (x) * XtimesY (7.0 , x) * XtimesY (x , -1) * sqrt (x , x))
 
 
-x = float(input("give x "))
+x = float(input('give x '))
 
 calculate (x)
 
