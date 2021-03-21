@@ -39,9 +39,16 @@ def sqrt (x , y):
 
 def calculate (x):
 	return exponent (x) * XtimesY (7.0 , x) * XtimesY (x , -1) * sqrt (x , x)
+
+
+
+
 #x = input("give x ")
 #x = float(x)
 #calculate (x)
+
+
+
 #if (x < 0.0):
 #		if (y - int(y) != 0.0):
 #			print (y)
